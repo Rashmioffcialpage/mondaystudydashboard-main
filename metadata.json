@@ -1,0 +1,5 @@
+{
+  "name": "StudentFlow AI",
+  "description": "A Monday.com-inspired student dashboard featuring AI-driven task prioritization, automated workflow simulations, and a smart course management board.",
+  "requestFramePermissions": []
+}
