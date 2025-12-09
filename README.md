@@ -1,20 +1,74 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+📚 Monday Study Dashboard
 
-# Run and deploy your AI Studio app
+A modern, responsive Study Dashboard App built using React + TypeScript + Vite, designed to help users track tasks, manage study schedules, and organize productivity efficiently.
+This dashboard offers a clean UI, fast performance, and modular components so it can be easily extended for personal or academic use.
 
-This contains everything you need to run your app locally.
+🔥 Features
 
-View your app in AI Studio: https://ai.studio/apps/drive/1-DRvAjSQ3E5-LwzeN2UNn8-N6S10wMue
+✔️ Task Management – Add, view, and organize study tasks
 
-## Run Locally
+✔️ Clean UI Components (React + TS)
 
-**Prerequisites:**  Node.js
+✔️ Modular Architecture with reusable components
+
+✔️ Fast Development Environment powered by Vite
+
+✔️ Type-safe codebase using TypeScript
+
+✔️ Service Layer Structure for scalable APIs
+
+🛠️ Tech Stack Used
+Technology	Purpose
+React	Frontend UI components
+TypeScript	Type safety and better developer experience
+Vite	Build tool + fast dev server
+CSS / Components Folder	UI styling and structure
+Services Folder	API logic & data handling
+📂 Project Structure
+mondaystudydashboard
+│── index.html
+│── App.tsx
+│── index.tsx
+│── types.ts
+│── package.json
+│── tsconfig.json
+│── vite.config.ts
+│
+├── components/
+│   ├── ...reusable UI components
+│
+├── services/
+│   ├── ...API & data service files
+
+▶️ How to Run the Project
+
+Install dependencies
+
+npm install
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Start development server
+
+npm run dev
+
+
+Open the local server shown in your terminal (usually http://localhost:5173/)
+
+📺 Recommended YouTube Videos (for Learning)
+
+Here are some helpful YouTube tutorials you can add for users:
+
+React + TypeScript Crash Course
+https://www.youtube.com/watch?v=Z5iWr6Srsj8
+
+Vite + React Setup Guide
+https://www.youtube.com/watch?v=67f5Avt_2yI
+
+Building Dashboards in React
+https://www.youtube.com/watch?v=Cmto3sIOtIY
+
+(You can replace these links with your own video if you have a demo!)
+
+📜 License
+
+This project is open-source and free to use for learning or personal projects.
